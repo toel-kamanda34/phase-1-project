@@ -1,0 +1,198 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Academic Resource Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Header and Navigation -->
+    <header>
+        <h1>University Academic Resource Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#research-papers">Research Papers</a></li>
+                <li><a href="#upload">Upload</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#requests">Requests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Search and Filter Section -->
+        <section id="search">
+            <h2>Search and Filter Resources</h2>
+            <form id="searchForm">
+                <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter keywords">
+                <select id="filterType" name="filterType">
+                    <option value="all">All Types</option>
+                    <option value="student">Student Resources</option>
+                    <option value="research">Research Papers</option>
+                </select>
+                <select id="filterDepartment" name="filterDepartment">
+                  
+                    <option value="civil">Civil Engineering</option>
+                    <option value="mechanical">Mechanical Engineering</option>
+                    <option value="electrical">Electrical Engineering</option>
+                    <option value="chemical">Chemical Engineering</option>
+                    <option value="software">software engineering</option>
+                    
+                </select>
+               
+                <select name="filterCourse" id="filterCourse">
+                   
+                    <option value="ce101">Introduction to Civil Engineering</option>
+                    <option value="ce202">Structural Analysis</option>
+                    <option value="ce303">CE303: Geotechnical Engineering</option>
+                    <option value="ce404">CE404: Transportation Engineering</option>
+                    <option value="me101">ME101: Fundamentals of Mechanical Engineering</option>
+                    <option value="me202">ME202: Thermodynamics</option>
+                    <option value="me303">ME303: Fluid Mechanics</option>
+                    <option value="me404">ME404: Machine Design</option>
+                    <option value="ee101">EE101: Basics of Electrical Engineering</option>
+                    <option value="ee202">EE202: Circuit Analysis</option>
+                    <option value="ee303">EE303: Electromagnetic Fields and Waves</option>
+                    <option value="ee404">EE404: Power Systems</option>
+                    <option value="che101">CHE101: Introduction to Chemical Engineering</option>
+                    <option value="che202">CHE202: Chemical Process Principles</option>
+                    <option value="che303">CHE303: Thermodynamics for Chemical Engineers</option>
+                    <option value="che404">CHE404: Chemical Reaction Engineering</option>
+                    <option value="se101">SE101: Introduction to Software Engineering</option>
+                    <option value="se202">SE202: Object-Oriented Programming</option>
+                    <option value="se303">SE303: Software Development Methodologies</option>
+                    <option value="se404">SE404: Advanced Software Engineering</option>
+                </select>
+                
+                    </select>
+              
+                <button type="submit">Search</button>
+            </form>
+
+       <!-- View Toggle -->
+        <div class="view-toggle">
+            <button id="gridView">Grid View</button>
+            <button id="listView">List View</button>
+        </div>
+
+        <!--Resources Section--> 
+        <section id="resources">
+            <h2>Academic Resources</h2>
+            <div id="resourceContainer" class="grid-view">
+                //Resources will be dynamically added here 
+            </div>
+        </section>
+        
+
+        <!--Research Papers Section -->
+        <section id="research-papers">
+            <h2>Research Papers</h2>
+            <div id="papersContainer">
+                // Research papers will be dynamically added here 
+            </div>
+        </section>
+
+ 
+   <!-- Resource Upload Section -->
+<section id="upload">
+    <h2>Upload Resources</h2>
+    <form id="uploadForm">
+      <label for="resourceName">Resource Name:</label>
+      <select id="resourceName" name="resourceName" required>
+        <option value="lectureNotes">Lecture Notes</option>
+        <option value="pastExams">Past Exam Papers</option>
+        <option value="labReports">Lab Reports</option>
+        <option value="researchPapers">Research Papers</option>
+        <option value="projectProposals">Project Proposals</option>
+      </select>
+  
+      <label for="resourceDescription">Description:</label>
+      <textarea id="resourceDescription" name="resourceDescription" required></textarea>
+  
+      <label for="resourceDepartment">Department:</label>
+      <select id="resourceDepartment" name="resourceDepartment" required>
+        <option value="">Select Department</option>
+        <option value="civil">Civil Engineering</option>
+        <option value="mechanical">Mechanical Engineering</option>
+        <option value="electrical">Electrical Engineering</option>
+        <option value="chemical">Chemical Engineering</option>
+        <option value="software">Software Engineering</option>
+      </select>
+  
+      <label for="resourceCourse">Course:</label>
+      <select id="resourceCourse" name="resourceCourse" required>
+        <option value="ce101">Introduction to Civil Engineering</option>
+        <option value="ce202">Structural Analysis</option>
+        <option value="ce303">CE303: Geotechnical Engineering</option>
+        <option value="ce404">CE404: Transportation Engineering</option>
+        <option value="me101">ME101: Fundamentals of Mechanical Engineering</option>
+        <option value="me202">ME202: Thermodynamics</option>
+        <option value="me303">ME303: Fluid Mechanics</option>
+        <option value="me404">ME404: Machine Design</option>
+        <option value="ee101">EE101: Basics of Electrical Engineering</option>
+        <option value="ee202">EE202: Circuit Analysis</option>
+        <option value="ee303">EE303: Electromagnetic Fields and Waves</option>
+        <option value="ee404">EE404: Power Systems</option>
+        <option value="che101">CHE101: Introduction to Chemical Engineering</option>
+        <option value="che202">CHE202: Chemical Process Principles</option>
+        <option value="che303">CHE303: Thermodynamics for Chemical Engineers</option>
+        <option value="che404">CHE404: Chemical Reaction Engineering</option>
+        <option value="se101">SE101: Introduction to Software Engineering</option>
+        <option value="se202">SE202: Object-Oriented Programming</option>
+        <option value="se303">SE303: Software Development Methodologies</option>
+        <option value="se404">SE404: Advanced Software Engineering</option>
+      </select>
+  
+      <label for="fileInput">Upload Files:</label>
+      <input type="file" id="fileInput" name="files" multiple required>
+  
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
+
+
+    
+
+        <!--Resource Requests Section -->
+        <section id="requests">
+            <h2>Resource Requests</h2>
+            <form id="requestForm">
+                <label for="requestTitle">Request Title:</label>
+                <input type="text" id="requestTitle" name="requestTitle" required>
+                
+                <label for="requestDescription">Description:</label>
+                <textarea id="requestDescription" name="requestDescription" required></textarea>
+                
+                <label for="requestDepartment">Department:</label>
+                <select id="requestDepartment" name="requestDepartment" required>
+                    <option value="">Select Department</option>
+                    //Add department options 
+                </select>
+
+                <label for="requestCourse">Course:</label>
+                <select id="requestCourse" name="requestCourse" required>
+                    <option value="">Select Course</option>
+                    //Add course options 
+                </select>
+                
+                <button type="submit">Submit Request</button>
+            </form>
+            <div id="requestList">
+                // Resource requests will be dynamically added here 
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 University Academic Resource Hub</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>  
+

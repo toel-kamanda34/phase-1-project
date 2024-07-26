@@ -1,0 +1,50 @@
+[
+  {
+    "resourceName": "pastExams",
+    "resourceDescription": "past exam",
+    "resourceDepartment": "electrical",
+    "resourceCourse": "ee101",
+    "files": [
+      {
+        "filename": "730353f6e75f77fdf2587a594d9cef71",
+        "originalname": "PPE_2020.pdf"
+      }
+    ]
+  },
+  {
+    "resourceName": "pastExams",
+    "resourceDescription": "past exam",
+    "resourceDepartment": "electrical",
+    "resourceCourse": "ee101",
+    "files": [
+      {
+        "filename": "8fe38e945e66793d45d60970c07881e5",
+        "originalname": "PPE_2020.pdf"
+      }
+    ]
+  },
+  {
+    "resourceName": "pastExams",
+    "resourceDescription": "past exams",
+    "resourceDepartment": "electrical",
+    "resourceCourse": "ee101",
+    "files": [
+      {
+        "filename": "c31c176ab7cd7389014b8d862ba307ee",
+        "originalname": "22212-Fundamentals-of-Electrical-Engineering-sample-question-paper.pdf"
+      }
+    ]
+  },
+  {
+    "resourceName": "pastExams",
+    "resourceDescription": "paste paper",
+    "resourceDepartment": "electrical",
+    "resourceCourse": "ee101",
+    "files": [
+      {
+        "filename": "cd68b371814ce6b39c8792c26cf7dacc",
+        "originalname": "PPE_2020.pdf"
+      }
+    ]
+  }
+]
