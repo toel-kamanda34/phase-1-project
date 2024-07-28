@@ -1,50 +1,280 @@
-[
-  {
-    "resourceName": "pastExams",
-    "resourceDescription": "past exam",
-    "resourceDepartment": "electrical",
-    "resourceCourse": "ee101",
-    "files": [
-      {
-        "filename": "730353f6e75f77fdf2587a594d9cef71",
-        "originalname": "PPE_2020.pdf"
-      }
-    ]
-  },
-  {
-    "resourceName": "pastExams",
-    "resourceDescription": "past exam",
-    "resourceDepartment": "electrical",
-    "resourceCourse": "ee101",
-    "files": [
-      {
-        "filename": "8fe38e945e66793d45d60970c07881e5",
-        "originalname": "PPE_2020.pdf"
-      }
-    ]
-  },
-  {
-    "resourceName": "pastExams",
-    "resourceDescription": "past exams",
-    "resourceDepartment": "electrical",
-    "resourceCourse": "ee101",
-    "files": [
-      {
-        "filename": "c31c176ab7cd7389014b8d862ba307ee",
-        "originalname": "22212-Fundamentals-of-Electrical-Engineering-sample-question-paper.pdf"
-      }
-    ]
-  },
-  {
-    "resourceName": "pastExams",
-    "resourceDescription": "paste paper",
-    "resourceDepartment": "electrical",
-    "resourceCourse": "ee101",
-    "files": [
-      {
-        "filename": "cd68b371814ce6b39c8792c26cf7dacc",
-        "originalname": "PPE_2020.pdf"
-      }
-    ]
-  }
-]
+{
+  "resources": [
+    {
+      "name": "lectureNotes",
+      "description": "paper",
+      "department": "electrical",
+      "course": "ee101",
+      "files": [
+        "1875358ad2dbf5aade3ea11dcebad925"
+      ]
+    },
+    {
+      "name": "pastExams",
+      "description": "introduction to engineering paper ",
+      "department": "electrical",
+      "course": "ee101",
+      "files": [
+        "ce554d670cc204ee46d61cd6fb4e34ee"
+      ]
+    },
+    {
+      "name": "pastExams",
+      "description": "introduction to civil engineering paper ",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        "58c2065d939492890a924f0a76848cc0"
+      ]
+    },
+    {
+      "name": "lectureNotes",
+      "description": "lecture notes ",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        "74c8418d5009d5336c2932961733820a"
+      ]
+    },
+    {
+      "name": "labReports",
+      "description": "past lab",
+      "department": "mechanical",
+      "course": "me303",
+      "files": [
+        "bda90d2ba673baa6c76ac57012f2022e"
+      ]
+    },
+    {
+      "name": "lectureNotes",
+      "description": "lecture notes",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        "d11f9c30857598434a606a4e032f9b05"
+      ]
+    },
+    {
+      "name": "labReports",
+      "description": "manuaal",
+      "department": "mechanical",
+      "course": "ce101",
+      "files": [
+        "952658a8809f10eb38ee33c7baadf50f"
+      ]
+    },
+    {
+      "name": "researchPapers",
+      "description": "research paper",
+      "department": "software",
+      "course": "se101",
+      "files": [
+        "9c83b3ad220584d76a5c943879fce690"
+      ]
+    },
+    {
+      "name": "pastExams",
+      "description": "past exam",
+      "department": "mechanical",
+      "course": "me404",
+      "files": [
+        "1eb2e825912b9baf683b4354e3027605"
+      ]
+    },
+    {
+      "name": "pastExams",
+      "description": "introduction to civil engineering",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        "9f6333af57d779173683fe3e7329aa97"
+      ]
+    },
+    {
+      "name": "projectProposals",
+      "description": "software engineering project proposal",
+      "department": "software",
+      "course": "se404",
+      "files": [
+        "194d2ee73d476ddfc377d71b3e1bc267"
+      ]
+    },
+    {
+      "name": "pastExams",
+      "description": "past exam",
+      "department": "software",
+      "course": "ce101",
+      "files": [
+        "8dc0b43cb2477e32ad221a8dcd654fb2"
+      ]
+    },
+    {
+      "name": "lectureNotes",
+      "description": "lecture notes",
+      "department": "mechanical",
+      "course": "me404",
+      "files": [
+        "6eef6f9d0f1adc6458b0004687651a56"
+      ]
+    },
+    {
+      "name": "lectureNotes",
+      "description": "lecture notes",
+      "department": "mechanical",
+      "course": "me101",
+      "files": [
+        {
+          "filename": "CIVIL ENGG PAPER-1.pdf",
+          "originalname": "CIVIL ENGG PAPER-1.pdf"
+        }
+      ]
+    },
+    {
+      "name": "pastExams",
+      "description": "past paper",
+      "department": "mechanical",
+      "course": "me404",
+      "files": [
+        {
+          "filename": "LabManual.pdf",
+          "originalname": "LabManual.pdf"
+        }
+      ]
+    },
+    {
+      "id": "f00a4649-1dd4-4139-9946-e14f5392a181",
+      "name": "projectProposals",
+      "description": "first project",
+      "department": "software",
+      "course": "se404",
+      "files": [
+        {
+          "filename": "22212-Fundamentals-of-Electrical-Engineering-sample-question-paper.pdf",
+          "originalname": "22212-Fundamentals-of-Electrical-Engineering-sample-question-paper.pdf"
+        }
+      ],
+      "upvotes": 5,
+      "downvotes": 1
+    },
+    {
+      "id": "147e521f-9aef-4707-b210-678fd800e6cb",
+      "name": "pastExams",
+      "description": "civil engineering",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        {
+          "filename": "CIVIL ENGG PAPER-1.pdf",
+          "originalname": "CIVIL ENGG PAPER-1.pdf"
+        }
+      ],
+      "upvotes": 2,
+      "downvotes": 0
+    },
+    {
+      "id": "e65fdb37-0174-46ca-9003-d5ed69afed33",
+      "name": "lectureNotes",
+      "description": "civil",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        {
+          "filename": "CIVIL ENGG PAPER-1.pdf",
+          "originalname": "CIVIL ENGG PAPER-1.pdf"
+        }
+      ],
+      "upvotes": 9,
+      "downvotes": 0
+    },
+    {
+      "id": "7a5f1d89-0ec6-4dac-9de8-335dbd42f78f",
+      "name": "lectureNotes",
+      "description": "software",
+      "department": "software",
+      "course": "ce101",
+      "files": [
+        {
+          "filename": "CIVIL ENGG PAPER-1.pdf",
+          "originalname": "CIVIL ENGG PAPER-1.pdf"
+        }
+      ],
+      "upvotes": 10,
+      "downvotes": 1
+    },
+    {
+      "id": 20,
+      "name": "lectureNotes",
+      "description": "last",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        {
+          "filename": "CIVIL ENGG PAPER-1.pdf",
+          "path": "/uploads/CIVIL ENGG PAPER-1.pdf"
+        }
+      ],
+      "upvotes": 0,
+      "downvotes": 0
+    },
+    {
+      "id": "1de89e9c-ade4-4965-beaa-c4ac66ceade1",
+      "name": "labReports",
+      "description": "repert",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        {
+          "filename": "CIVIL ENGG PAPER-1.pdf",
+          "path": "/uploads/CIVIL ENGG PAPER-1.pdf"
+        }
+      ],
+      "upvotes": 11,
+      "downvotes": 1
+    },
+    {
+      "id": "41dbc494-c2f6-434a-8366-15c831802294",
+      "name": "pastExams",
+      "description": "electrical exam",
+      "department": "electrical",
+      "course": "ee101",
+      "files": [
+        {
+          "filename": "LabManual.pdf",
+          "path": "/uploads/LabManual.pdf"
+        }
+      ],
+      "upvotes": 5,
+      "downvotes": 0
+    },
+    {
+      "id": "9e1213c2-60e0-4b7f-8e52-5ad74b9e2b95",
+      "name": "researchPapers",
+      "description": "research project",
+      "department": "electrical",
+      "course": "ee202",
+      "files": [
+        {
+          "filename": "PPE_2020.pdf",
+          "path": "/uploads/PPE_2020.pdf"
+        }
+      ],
+      "upvotes": 0,
+      "downvotes": 0
+    },
+    {
+      "id": "7db59329-98ac-4da1-bc50-7262ed639c0d",
+      "name": "pastExams",
+      "description": "past exam",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        {
+          "filename": "84adafff629b445920f0e272e0fd76a1",
+          "path": "/uploads/84adafff629b445920f0e272e0fd76a1"
+        }
+      ],
+      "upvotes": 1,
+      "downvotes": 0
+    }
+  ]
+}
